@@ -1,0 +1,118 @@
+[
+  {
+    "type": "الجمال",
+    "prods": [
+      {
+        "name": "جمال أصيلة",
+        "price": 65,
+        "priceAfterDiscount": 55,
+        "image":"/normalCamel.png",
+        "id":1
+      },
+      {
+        "name": "جمال سمراء",
+        "price": 70,
+        "priceAfterDiscount": 60,
+        "image":"/blackCamel.png",
+        "id":2
+      },
+      {
+        "name": "جمال بيضاء",
+        "price": 80,
+        "priceAfterDiscount": 67,
+        "image":"/whiteCamel.png",
+        "id":3
+      }
+    ],
+    "colors":["#995837","#A0572B","#995837"],
+    "prodId":1,
+    "YPosition":650
+  },
+  {
+    "type": "الأبقار",
+    "prods": [
+      {
+        "name": "بقر مالفي",
+        "price": 53,
+        "priceAfterDiscount": 45,
+        "image":"/malvinCow.png",
+        "id":1
+      },
+      {
+        "name": "بقر أبيض",
+        "price": 50,
+        "priceAfterDiscount": 40,
+        "image":"/whiteParkCow.png",
+        "id":2
+      },
+      {
+        "name": "بقر ايرشاير",
+        "price": 45,
+        "priceAfterDiscount": 38,
+        "image":"/ayrshineCow.png",
+        "id":3
+      }
+    ],
+    "colors":["#AC8561","#9B7756","#AC8561"],
+    "prodId":2,
+    "YPosition":1450
+  },
+  {
+    "type": "الأغنام",
+    "prods": [
+      {
+        "name": "أغنام ميرينو",
+        "price": 40,
+        "priceAfterDiscount": 36,
+        "image":"/merinosheep.png",
+        "id":1
+      },
+      {
+        "name": "أغنام هاري",
+        "price": 36,
+        "priceAfterDiscount": 30,
+        "image":"/harriSheep.png",
+        "id":2
+      },
+      {
+        "name": "أغنام رومانوف",
+        "price": 34,
+        "priceAfterDiscount": 26,
+        "image":"/romanovSheep.png",
+        "id":3
+      }
+    ],
+    "colors":["#C8B8A7","#DCCCB4","#AB9E8F"],
+    "prodId":3,
+    "YPosition":2310
+  },
+  {
+    "type": "الماعز",
+    "prods": [
+      {
+        "name": "ماعز سانين",
+        "price": 55,
+        "priceAfterDiscount": 45,
+        "image":"/saanenGoat.png",
+        "id":1
+      },
+      {
+        "name": "ماعز نوبي",
+        "price": 70,
+        "priceAfterDiscount": 55,
+        "image":"/nubianGoat.png",
+        "id":2
+      },
+      {
+        "name": "ماعز اللاب",
+        "price": "50",
+        "priceAfterDiscount": "43",
+        "image":"/alphineGoat.png",
+        "id":3
+      }
+    ],
+    "colors":["#835F45","#6C4B35","#825E44"],
+    "prodId":4,
+    "YPosition":3100
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "shop and cart and another website data",
+  "main": "app.ts",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon ./dist/backend/app"
+  },
+  "author": "Mohammed Sayed Ibrahim",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.1"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.12",
+    "body-parser": "^1.20.2"
+  }
+}

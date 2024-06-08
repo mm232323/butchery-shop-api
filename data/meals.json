@@ -1,0 +1,38 @@
+[
+ {
+  "name":"وسط المجزراتي",
+  "price":"3.5 ر.س",
+  "imgUrl":"/meal1.png",
+  "id":1
+ },
+ {
+  "name":"طبق الفخامة",
+  "price":"8.3 ر.س",
+  "imgUrl":"/meal2.png",
+  "id":2
+ },
+ {
+  "name":"التجمع اللحمي",
+  "price":"7.8 ر.س",
+  "imgUrl":"/meal3.png",
+  "id":3
+ },
+ {
+  "name":"شرائح الحياة",
+  "price":"4 ر.س",
+  "imgUrl":"/meal4.png",
+  "id":4
+ },
+ {
+  "name":"مضلع اللحوم",
+  "price":"10 ر.س",
+  "imgUrl":"/meal5.png",
+  "id":5
+ },
+ {
+  "name":"بارسو لحم",
+  "price":"12 ر.س",
+  "imgUrl":"/meal6.png",
+  "id":6
+ }
+]
