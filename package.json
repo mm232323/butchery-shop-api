@@ -5,7 +5,7 @@
   "main": "app.ts",
   "scripts": {
     "test": "test",
-    "start": "nodemon ./dist/backend/app"
+    "start": "node ./dist/backend/app"
   },
   "author": "Mohammed Sayed Ibrahim",
   "license": "ISC",
