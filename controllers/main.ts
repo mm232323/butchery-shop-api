@@ -1,5 +1,5 @@
 import { RequestHandler } from "express";
-import { messageData } from "../../src/util/interfaces";
+import { messageData } from '../../client/src/util/interfaces'
 import fs from "fs";
 
 export const setHeaders: RequestHandler = (req, res, next) => {
@@ -9,6 +9,10 @@ export const setHeaders: RequestHandler = (req, res, next) => {
   res.setHeader("Content-Security-Policy", "upgrade-insecure-requests");
   next();
 };
+
+export const getStart: RequestHandler = (req,res,next) => {
+  res.status(200).json({message:"hello"})
+}
 
 export const getMainData: RequestHandler = (req, res) => {
   fs.readFile("./data/mainPageData.json", (err, fileData) => {
