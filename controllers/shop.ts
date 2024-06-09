@@ -1,6 +1,6 @@
 import fs from "fs";
 import { RequestHandler } from "express";
-import { cartProdsData } from "../../src/util/interfaces";
+import { cartProdsData } from "../../client/src/util/interfaces";
 export const getShopData: RequestHandler = (req, res) => {
   fs.readFile("./data/shopData.json", (err, fileContent) => {
     if (err) console.log(err);
