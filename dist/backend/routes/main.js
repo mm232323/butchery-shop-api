@@ -30,6 +30,7 @@ const express_1 = __importDefault(require("express"));
 const MainController = __importStar(require("../controllers/main"));
 const router = express_1.default.Router();
 router.use(MainController.setHeaders);
+router.use(MainController.getStart);
 router.get("/main", MainController.getMainData);
 router.post("/main/send-message", MainController.postMessage);
 exports.default = router;

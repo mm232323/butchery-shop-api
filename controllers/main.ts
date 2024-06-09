@@ -11,7 +11,7 @@ export const setHeaders: RequestHandler = (req, res, next) => {
 };
 
 export const getStart: RequestHandler = (req,res,next) => {
-  res.status(200).json({message:"hello"})
+  res.status(200).send({"message":'buchery shop starting page'})
 }
 
 export const getMainData: RequestHandler = (req, res) => {

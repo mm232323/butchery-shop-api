@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.postMessage = exports.getMainData = exports.setHeaders = void 0;
+exports.postMessage = exports.getMainData = exports.getStart = exports.setHeaders = void 0;
 const fs_1 = __importDefault(require("fs"));
 const setHeaders = (req, res, next) => {
     res.setHeader("Access-Control-Allow-Origin", "*"); // allow all domains
@@ -13,6 +13,10 @@ const setHeaders = (req, res, next) => {
     next();
 };
 exports.setHeaders = setHeaders;
+const getStart = (req, res, next) => {
+    res.status(200).send({ "message": 'buchery shop starting page' });
+};
+exports.getStart = getStart;
 const getMainData = (req, res) => {
     fs_1.default.readFile("./data/mainPageData.json", (err, fileData) => {
         res.status(200).send(JSON.parse(fileData.toString()));
