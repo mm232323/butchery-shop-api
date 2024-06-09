@@ -4,7 +4,7 @@
   "description": "shop and cart and another website data",
   "main": "app.ts",
   "engines": {
-    "node":"14.x"
+    "node":"20.x"
   },
   "scripts": {
     "test": "test",
